@@ -25,13 +25,34 @@ const Hero = () => (
             <div className="flex flex-row justify-between items-center w-full">
                 <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-gray-50 capitalize ss:leading-[100px] leading-[75px]">
                     the next <br className="sm:block hidden" />{' '}
-                    <span className={`text-gradient`}>generation</span>{' '}
-                    <br className="sm:block hidden" />
-                    payment method
+                    <span className={`text-gradient`}>generation</span>
                 </h1>
-            <div className="ss:flex hidden md:mr-4 mr-0 ">
-                <GetStarted />
+                <div className="ss:flex hidden md:mr-4 mr-0 ">
+                    <GetStarted />
+                </div>
             </div>
+            <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-gray-50 capitalize ss:leading-[px] leading-[75px] w -full">
+                payment method
+            </h1>
+            <p className={`capitalize ${styles.paragraph} max-w-[470px] mt-5`}>
+                our team of experts uses a methodology to ident ify the credit
+                cards most likely to fit your needs. We examine annual
+                percentage rates, annual fees.
+            </p>
+            <div
+                className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}
+            >
+                <img
+                    src={robot}
+                    alt="billing"
+                    className="w-[100%] h-[100%] relative z-[5]"
+                />
+                <div className="absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient" />
+                <div className="absolute z-[1] w-[80%] h-[80%] rounded-full bottom-40 white__gradient" />
+                <div className="absolute z-[0] w-[50%] h-[50%] right-20 bottom-20 blue__gradient"></div>
+            </div>
+            <div className={`ss:hidden ${styles.flexCenter}`}>
+                <GetStarted />
             </div>
         </div>
     </section>

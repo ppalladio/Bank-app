@@ -40,7 +40,7 @@ const Hero = () => (
                 percentage rates, annual fees.
             </p>
             <div
-                className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}
+                className={`flex-1 flex ${styles.flexCenter} md:my-20 my-10 relative`}
             >
                 <img
                     src={robot}

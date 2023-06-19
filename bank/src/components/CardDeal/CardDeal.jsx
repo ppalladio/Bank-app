@@ -9,8 +9,10 @@ const CardDeal = () => (
                 few easy steps.
             </h2>
             <p className={`${styles.paragraph} max-w-[407px} mt-5`}>
-                Arcu tortor, purus in mattis at sed integer faucibus. Aliquet
-                quis aliquet eget mauris tortor.ç Aliquet ultrices ac, ametau.
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Nostrum expedita optio fugit veniam quasi ad, ipsam aliquam!
+                Magnam quidem, natus, officiis, ipsam quas repellendus fugiat
+                neque nihil obcaecati dolor eum!.
             </p>
             <Button styles="mt-10 rounded-[10px]" />
         </div>
